@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <title>Hjem</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerLogo">JH</div>
+      <nav>
+        <ul class="navigation">
+          <a href="#"> <li></li> </a>
+          <a href="#"> <li></li> </a>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="todoList">
+        <!-- DEL 2: -->
+        <!-- 
+          Gjøremålsliste steg-for-steg:
+          1. Lag et semantisk skjema med relevante Form-elementer (eks. label og fyll egenskaper korrekt)
+          2. Lag en knapp som kan trykkes på for å sende data til JS
+            1. Knapp må ha ID
+            2. Lag variabel i JS
+            3. Hent ID-navn med document.querySelector-metoden
+          3. Hent verdien til input-element til JS
+            1. input må ha ID
+            2. Lag variabel i JS
+            3. Hent ID-navn med document.querySelector-metoden
+            4. Bruk .value-metoden for å få verdien til elementet
+        -->
+        <form>
+          <label for="userInput">
+            <input type="text" name="userInput" id="userInput" />
+          </label>
+
+          <!-- Steg 4 + -->
+
+          <button id="addTodo">Legg til</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Laget av Julie Hauge</p>
+    </footer>
+  </body>
+</html>
